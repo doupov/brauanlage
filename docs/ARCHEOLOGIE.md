@@ -229,3 +229,49 @@ Historický software se neztrácí jen smazáním zdrojového kódu. Ztrácí se
 - jaké nezdokumentované předpoklady měl autor.
 
 Tento repozitář proto uchovává nejen soubory, ale i postup uvažování. Právě ten bývá při další obnově nejcennější.
+
+# Epilog
+
+Celá rekonstrukce byla provedena na notebooku **Dell Latitude D600**.
+
+Notebook strávil dlouhá léta odložený ve skladu. Po jeho otevření následovalo
+jediné, co bylo potřeba udělat: vyfoukat prach a několik pavučin z ventilátoru.
+
+Pak se stal malý zázrak.
+
+Dell bez problémů nabootoval původní **Windows XP**, ožil integrovaný
+paralelní port (LPT), sériový port (COM) a po několika hodinách digitální
+archeologie se podařilo znovu zprovoznit celý pivovarský systém.
+
+Cesta vedla přes:
+
+- hledání zaniklých webových stránek,
+- dohledání instalačních balíků,
+- Visual Basic 6 Runtime,
+- registraci OCX komponent,
+- Microsoft Forms 2.0 (FM20.DLL),
+- DigiTemp a 1-Wire teploměr,
+- InpOut32.dll,
+- správné nastavení LPT,
+- a nakonec zdánlivě banální, ale zásadní zjištění, že **Brauanlage musí být spuštěna jako správce**, aby mohl zapisovat na LPT port.
+
+Výsledek stál za to.
+
+> **Vyfoukali jsme pavouky z ventilátoru, notebook nastartoval po dvaceti letech a začal znovu vařit pivo.**
+
+Doufáme, že tento repozitář pomůže zachovat Brauanlage i dalším domácím
+sládkům a že za dalších deset nebo dvacet let nebude potřeba začínat znovu od nuly.
+
+---
+
+## Poděkování
+
+Rekonstrukce, testování, archivace a ověření funkčnosti:
+- **Martin Fox** (https://github.com/doupov)
+
+Při analýze historického software, přípravě dokumentace, rekonstrukci
+instalačního postupu a řešení kompatibility byla využita asistence
+**ChatGPT (OpenAI)**.
+
+Pokud máte další materiály, schémata, instalační soubory nebo zkušenosti s Brauanlage,
+budeme rádi za Issue nebo Pull Request.
