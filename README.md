@@ -82,6 +82,21 @@ Cílem není modernizovat program za každou cenu. Cílem je uchovat dostatek zn
 - bezpečně archivovat původní instalační soubory a dokumentaci,
 - případně později nahradit jednotlivé části moderním hardwarem.
 
+## Referenční hardware
+
+Rekonstrukce byla úspěšně ověřena na:
+
+- Dell Latitude D600
+- Windows XP SP3
+- integrovaný LPT (0x378)
+- integrovaný COM (RS-232)
+- DS9097 + DS18S20 / DS18B20
+- původní reléová karta podle schématu Thomase Karpena
+
+Dell D600 se ukázal jako ideální "záchranný notebook" pro historický software,
+protože jako jeden z posledních běžných notebooků nabízí současně nativní
+LPT i COM port.
+
 ## Poděkování
 
 - Thomas Karpen – původní autor programu.
